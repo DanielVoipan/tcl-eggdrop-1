@@ -24,7 +24,7 @@ text:flood:delay $nick $uhost $hand $dest $text "Action"
 }
 
 proc notice:flood {nick uhost hand text {dest ""}} {
-if {[isbotnick $dest] || [string equal "ChanServ" $nick] || [string equal "NickServ" $nick] || [string equal "MemoServ" $nick] || ($nick == "")} { return 0 }
+if {[isbotnick $dest] || [string equal "Chan" $nick] || [string equal "Nick" $nick] || [string equal "Memo" $nick] || ($nick == "")} { return 0 }
 if {[string equal "@" [string index $dest 0]] && [string equal "#" [string index $dest 1]]} { return 0 }
 if {[string equal "#" [string index $dest 0]] && [string match "#*" $dest]} {
 text:flood:delay $nick $uhost $hand $dest $text "Notice"
