@@ -1,6 +1,4 @@
-
-
-        ##########################################################################################
+##########################################################################################
         # Youtube Title 2.0
         # - fetches and displays video information when a YouTube link is posted in channel.
         # - displays title, date and rating of posted video links.
