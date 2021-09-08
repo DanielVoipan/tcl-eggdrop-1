@@ -1,4 +1,4 @@
-# tcl subida por el staff de #tcls en DALnet por Sedition y Arnold_X-P email coky_02@hotmail.com #
+## tcl subida por el staff de #tcls en DALnet por Sedition y Arnold_X-P email coky_02@hotmail.com #
 # puedes encontrarme en la red latinchat server speed.friendschats.org #
 
 
