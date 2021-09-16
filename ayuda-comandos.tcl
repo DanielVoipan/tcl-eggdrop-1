@@ -414,7 +414,7 @@ proc pub_cambiarclavenick {nick user hand chan arg} {
 global ayudascomando
 if {(([lsearch -exact [string tolower $ayudascomando] [string tolower $chan]] != -1) || ($ayudascomando == ""))} {
 puthelp "NOTICE $nick :$nick te acabo de enviar la información sobre Como cambiar el password de tu nick por el privado"
-puthelp "PRIVMSG $nick : Para cambiar tu contraseña en esta red debes ingresa via web a https://www.puntochat.net/registro/usuarios/, ingresar tus datos actuales y por ultimo cambiar contraseña desde tu panel de usuario. Por ultimo pon dentro del IRC -> /login nick nueva-contraseña"
+puthelp "PRIVMSG $nick : Para cambiar tu contraseña en esta red debes ingresa via web a https://www.peoplechat.net/registro/, ingresar tus datos actuales y por ultimo cambiar contraseña desde tu panel de usuario. Por ultimo pon dentro del IRC -> /login nick nueva-contraseña"
 }
 }
 
